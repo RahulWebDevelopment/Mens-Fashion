@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 31, 50);
+    padding: 10px;
+}
+.logo img{
+    width: 100px;
+
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+.menu a:hover{
+    color: black;
+}
+.items img{
+    width: 100%;
+}
+.fa-facebook{
+    font-size: 25px;
+}
+.fa-facebook-messenger{
+    font-size: 25px;
+}
+.fa-whatsapp{
+    font-size: 25px;
+}
+.fa-cart-shopping{
+    font-size: 25px;
+}
+.dec{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+.cnt a{
+    justify-content: space-between;
+    color: azure;
+}
+.dec img{
+    width: 300px;
+    
+}
+.dec a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    display: inline-block;
+    
+}
+.dec p{
+    line-height: 25px;
+}
+.dec a:hover{
+    background-color: black;
+    color: rgb(103, 23, 23);
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    text-align: center; 
+    padding: 10px;
+}
+.items a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
